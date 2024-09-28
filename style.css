@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #e55473;
+  --bg-color: #e554731a;
+  --footer-bg: #111010;
+  --text-color: #272727;
+  --p-color: #27272799;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Reuseable Classes */
+  
+  .margin1 {
+    margin: 0px 140px;
+  }
