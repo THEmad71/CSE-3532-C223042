@@ -101,7 +101,83 @@ body {
   
     .hero-right img {
       width: 520.5px;
-      
-      
     }
-  }  
+  }
+    
+  #main-container {
+    margin-top: 128px;
+  }
+
+  /* Our Featured Flowers Section Start */
+
+  #off-section p {
+    margin: 24px 0px;
+  }
+
+  .off-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+
+  .off-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    height: 338px;
+    width: 264;
+  }
+
+  .bg-1 {
+    background: #a7216226;
+    background-image: url(./img/pngwing\ 6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+  }
+
+  .bg-2 {
+    background: #0597a026;
+    background-image: url(./img/pngwing\ 5.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+  }
+
+  .bg-3 {
+    background: #477d1126;
+    background-image: url(./img/pngwing\ 7.png);
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+  }
+
+  .off-down {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    place-items: center;
+    margin-top: 30px;
+  }
+
+  .off-down h4:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+
+  .off-down h4 {
+    font-size: 0.8rem;
+    text-decoration: underline;
+    color: var(--text-color);
+  }
+
+  /* Our Featured Flowers Section End */
