@@ -36,6 +36,11 @@ body {
     width: 200px;
     height: 64px;
     cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+  .btn:hover{
+    box-shadow: 5px 5px 5px rgb(0, 11, 32);
+    
   }
   
   .title {
